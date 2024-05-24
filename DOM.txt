@@ -1,4 +1,2 @@
 Document Object Model 
 Used to manipulate/style/structure content through selecting elements 
-
-1. 
