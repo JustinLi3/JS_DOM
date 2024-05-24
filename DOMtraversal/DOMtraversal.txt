@@ -1,0 +1,3 @@
+Traversal through a DOM tree is important for dynamically finding and manipulating elements without static identifiers or classes 
+It is also very essential to locating content that is not HTML, directly access anything  
+Access elements by hierarchical relationships
