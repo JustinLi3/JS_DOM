@@ -35,5 +35,4 @@ console.log(ul.lastElementChild);
 const mainHeading = document.documentElement.lastElementChild.firstElementChild.firstElementChild; //Accessing through html->body->div->heading
 const div = document.querySelector('div'); 
 console.log(div.childNodes); //Since there are nodes actually in between the h1 and ul, should use previousElementSibling and nextElementSibling 
-console.log(mainHeading); 
 console.log(mainHeading.nextElementSibling); 
