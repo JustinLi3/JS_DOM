@@ -1,0 +1,19 @@
+Event propagation in JavaScript is the process where an event triggered on a specific element moves through its ancestors 
+(capturing phase), runs on the target element, and then moves back through the ancestors (bubbling phase).  
+
+In the .addEventListener() method, if our third method is True, this dictates our code to run event capturing (browser to object),
+ and if False, event bubbling (object to browser ) 
+
+e parameter returns the event object, details about the object, location, type   e.target shows what element the event is on 
+document.querySelector("").addEventListener("click", function(e){ console.log(e);}, true); //
+ 
+
+
+document.querySelector("").addEventListener("click", function(e){ e.stopPropagation(); console.log()}, true/false)
+.stopPropagation() stops propagation from start all the way until you reach the method   
+
+as a third parameter, use {once: true} to only set off function once  
+
+another method we could have inside the function of a addEventListener is e.preventDefault(), this prevents default behavior of some elements like an anchor tag from redirecting and refreshing the anchor tag 
+
+e.preventDefault()
