@@ -1,0 +1,15 @@
+Allows us to add an event listener to a parent element that is passed down to all desendents  
+ex: you want to change the background of options within a list  
+
+document.querySelector("#sports").addEventListener('click', function(e){ //sports is the id of the list 
+    const target = e.target;  //get the list item that has been clicked within a list 
+    console.log(target.getAttribute('id') + " is clicked);    
+    if(target.matches('li')){ //if the item clicked is a list item, change background color
+        target.style.backgroundColor = 'light grey';
+    }
+}
+
+)
+)
+
+reduces repetition in applying the same eventListeners to different elements
