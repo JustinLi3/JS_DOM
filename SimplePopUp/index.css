@@ -1,0 +1,19 @@
+.btn{
+    transition: background-color 0.05s;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.9); 
+} 
+.btn:active{
+    background-color: rgba(0,0,0,0.1); 
+} 
+
+.text{ 
+    position: absolute;   
+    left:37%;  
+    top:-15%;
+    right:50%;  
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
